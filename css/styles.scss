@@ -29,13 +29,13 @@ $carousel-item-height: 300px;@mixin zero-margin($pad-up-dn, $pad-left-right) {
     color:floralwhite;
 }
 
-address{
+.address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
 }
 
-body{
+.body{
     padding:50px 0px 0px 0px;
     z-index:0;
 }
@@ -50,6 +50,18 @@ body{
     border-bottom: 1px solid $lt-gray;
     padding: 10px;
 }
+.modal-head{
+	background: $background-dark;
+	color: floralwhite;
+	.modal-x{
+		color: floralwhite;
+	}
+}
+
+.modal-body-custom{
+	background: $background-pale;
+}
+
 .carousel {
     background:$background-dark;
 

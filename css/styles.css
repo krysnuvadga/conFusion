@@ -19,12 +19,12 @@
   background: #9575CD;
   color: floralwhite; }
 
-address {
+.address {
   font-size: 80%;
   margin: 0px;
   color: #0f0f0f; }
 
-body {
+.body {
   padding: 50px 0px 0px 0px;
   z-index: 0; }
 
@@ -36,6 +36,15 @@ body {
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px; }
+
+.modal-head {
+  background: #512DA8;
+  color: floralwhite; }
+  .modal-head .modal-x {
+    color: floralwhite; }
+
+.modal-body-custom {
+  background: #D1C4E9; }
 
 .carousel {
   background: #512DA8; }
